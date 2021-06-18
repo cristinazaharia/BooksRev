@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="nb.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Review</title>
+</head>
+<body>
+<nav>
+    <button>🞬</button>
+    <ul>
+        <li>
+            <a href="html1.html"> Home </a>
+        </li>
+        <li>
+            <a href="books.html"> Books </a>
+        </li>
+        <li>
+            <a href=""> BooksRev </a>
+        </li>
+    </ul>
+</nav>
+<div class="svg">
+    <svg viewBox="0 0 3000 200">
+    <symbol id="s-text">
+        <text text-anchor="middle"
+              x="50%"
+              y="35%"
+              class="text--line">
+            Leave a review
+        </text>
+    </symbol>
+
+    <g class="g-ants">
+        <use xlink:href="#s-text"
+             class="text-copy"></use>
+        <use xlink:href="#s-text"
+             class="text-copy"></use>
+        <use xlink:href="#s-text"
+             class="text-copy"></use>
+        <use xlink:href="#s-text"
+             class="text-copy"></use>
+        <use xlink:href="#s-text"
+             class="text-copy"></use>
+    </g>
+</svg>
+</div>
+<div class="comment">
+    <h4>Full Name</h4>
+    <textarea id="fn"  onkeyup="Allow()" ></textarea>
+    <h4>Review</h4>
+    <textarea id="title"  placeholder="Write a review......"></textarea><br><br>
+    <input id="bt" type="submit" value="Post" onclick="myFunction(), insert()" style="width:70px;" />
+</div>
+<div id="display">
+</div>
+<div class="foo">
+    <footer style="height:150px; background-color:#34495E;">
+        <h3>BooksRev</h3>
+        <h4>Contact: info@booksrev.com</h4>
+    </footer>
+</div>
+<script src="storage.js"></script>
+<script src="navbar.js"></script>
+<script src="cm.js"></script>
+</body>
+</html>

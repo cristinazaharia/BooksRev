@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+.carusel{
+    width: 60%;
+    left: 25%;
+    margin: 0 auto;
+}
+.s{
+    margin-left: 27%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.lab{
+    width:100%;
+    margin-left: 30%;
+    font-size: 30px;
+    color: white;
+}
+.but {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.foo{
+    margin-top: 5%;
+    color:white;
+    text-align: left;
+}
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+

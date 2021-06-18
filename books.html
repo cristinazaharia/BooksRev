@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="books.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Books</title>
+</head>
+<body>
+<nav>
+    <button>🞬</button>
+    <ul>
+        <li>
+            <a href="html1.html"> Home </a>
+        </li>
+        <li>
+            <a href="books.html"> Books </a>
+        </li>
+        <li>
+            <a href=""> BooksRev</a>
+        </li>
+    </ul>
+</nav>
+<div class="s">
+    <svg width="75%" height="100%">
+        <rect width="100%" height="100%" fill="white" />
+        <circle cx="100%" cy="100%" r="150" fill="black" stroke="black" />
+        <polygon points="120,0 240,225 0,225" fill="black"/>
+        <text x="50" y="100" font-family="Verdana" font-size="55"
+              fill="white" stroke="black" stroke-width="2">
+            Choose your book
+        </text>
+    </svg>
+</div>
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <div class="card">
+            <img src="pics/othello.jpg" alt="" style="width:50%">
+            <h1>Othello</h1>
+                <p class="author">William Shakespeare</p>
+                <a class="button1" href="#">Choose this book</a>
+
+            </div>
+    </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <div class="card">
+                <img src="pics/mam.jpg" alt="" style="width:50%">
+                <h1>Madame Bovary</h1>
+                <p class="author">Gustave Flaubert</p>
+                <a class="button1" href="#">Choose this book</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <div class="card">
+                <img src="pics/war.jpg" alt="" style="width:50%">
+                <h1>War and Peace</h1>
+                <p class="author">Leo Tolstoy</p>
+                <a class="button1" href="othello.html">Choose this book</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="foo">
+    <footer style="height:150px; background-color:#34495E;">
+        <h3>BooksRev</h3>
+        <h4>Contact: info@booksrev.com</h4>
+    </footer>
+</div>
+<script src="navbar.js"></script>
+</body>
+</html>
