@@ -1,0 +1,9 @@
+.sprite {
+    background: url("images/mySprite.png") no-repeat;
+}
+.ie {
+    width: 50px; /* Icon width */
+    height: 50px; /* Icon height */
+    display: inline-block; /* Display icon as inline block */
+    background-position: 0 -200px; /* Icon background position in sprite */
+}
