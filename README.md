@@ -22,8 +22,7 @@
   
   ![image](https://github.com/cristinazaharia/booksrev/assets/78911746/1df39155-d90f-4cc2-81d4-88bbf5ebc441)
   
-  As long as the visitor is not leaving the web-site, they can view their comment if they click the "My review" button. Their comment is being stored in local storage.
-  
+  As long as the visitor is not leaving the web-site, they can view their comment if they click the "My review" button. 
   
   
 
