@@ -1,4 +1,4 @@
-# booksrev
+# BooksRev
 
   Booksrev is a simple web-site designed using HTML, CSS and JavaScript. It allows a visitor to leave a comment/review on one of the available books on the web-site.
   After the main page of the website was displayed, the visitor is asked to introduce their name, but they do not have to introduce one mandatory.
